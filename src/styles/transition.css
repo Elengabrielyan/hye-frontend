@@ -1,0 +1,18 @@
+.step-enter {
+  opacity: 0;
+  transition: 1s;
+}
+
+.step-enter-active {
+  opacity: 1;
+  transition: 1s;
+}
+
+.step-exit {
+  opacity: 1;
+}
+
+.step-exit-active {
+  opacity: 0;
+  transition: 0.5s;
+}

@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Raleway", sans-serif;
+}
+
+html {
+  min-width: fit-content;
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    zoom: 100%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  body {
+    zoom: 90%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  body {
+    zoom: 85%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    zoom: 78%;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  body {
+    zoom: 75%;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  body {
+    zoom: 72%;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  body {
+    zoom: 66%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  body {
+    zoom: 55%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    zoom: 53%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    zoom: 40%;
+  }
+}

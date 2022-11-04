@@ -1,0 +1,158 @@
+.formTitle {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 51px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.formDescription {
+  font-family: "Montserrat";
+  font-weight: 600;
+
+  margin-top: 16px;
+  margin-bottom: 98px;
+
+  text-align: center;
+
+  color: #5e778d;
+}
+
+.stepTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+
+  color: #0e183e;
+}
+
+.stepDescription {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+
+  margin-top: 15px;
+  margin-bottom: 32px;
+
+  color: #5e778d;
+}
+
+.faqQuestionTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+
+  text-align: start;
+  margin-bottom: 25px;
+  margin-left: 50px;
+
+  color: #0e183e;
+}
+
+.boxTitle {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Montserrat";
+  font-size: 18px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.boxDescription {
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+
+  text-align: center;
+}
+
+.boxSelectionTitle {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 51px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.boxSelectionDescription {
+  width: 830px;
+  font-family: "Montserrat";
+  font-weight: 600;
+
+  margin-top: 16px;
+  margin-bottom: 98px;
+
+  text-align: center;
+
+  color: #5e778d;
+}
+
+.boxPrice {
+  font-size: 28px;
+  color: #fff;
+}
+
+.validationErrorMessage {
+  color: crimson;
+  width: 100%;
+
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 750px) {
+  .formTitle {
+    font-size: 50px;
+    width: 100%;
+  }
+
+  .formDescription {
+    font-size: 28px;
+    width: 100%;
+  }
+
+  .stepTitle {
+    font-size: 32px;
+  }
+
+  .stepDescription {
+    font-size: 28px;
+  }
+
+  .faqQuestionTitle {
+    font-size: 42px;
+  }
+
+  .boxTitle {
+    font-size: 28px;
+  }
+
+  .boxDescription {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .boxSelectionTitle {
+    margin-top: 60px;
+  }
+
+  .boxSelectionDescription {
+    font-size: 22px;
+    width: 630px;
+
+    margin-bottom: 160px;
+  }
+
+  .boxPrice {
+    font-size: 34px;
+  }
+
+  .validationErrorMessage {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+}
