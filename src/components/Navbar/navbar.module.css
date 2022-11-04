@@ -1,0 +1,38 @@
+nav {
+  width: 231px;
+  height: 19px;
+
+  flex-grow: 1;
+}
+
+.navLink {
+  margin-right: 30px;
+
+  font-weight: bold;
+  color: #5e778d;
+  text-decoration: none;
+}
+
+.activeNavLink {
+  color: #0e183e !important;
+}
+
+@media only screen and (max-width: 750px) {
+  .navbar {
+    display: none;
+  }
+
+  header .navLink {
+    margin-right: 0;
+    margin-bottom: 60px;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+
+    color: #5e778d;
+  }
+
+  footer .navbar {
+    display: inline-block;
+  }
+}

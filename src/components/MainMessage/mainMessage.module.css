@@ -1,0 +1,154 @@
+.mainMessage {
+  width: 1197px;
+  height: 378px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainMessage h1 {
+  font-size: 60px;
+  color: #0e183e;
+}
+
+.mainMessage p {
+  margin: 35px 0 46px 0;
+
+  line-height: 26px;
+  color: #5e778d;
+}
+
+.mainMessage button {
+  margin: 0;
+}
+
+.pics {
+  width: 510px;
+  height: 378px;
+
+  position: relative;
+  right: 808px;
+  bottom: 108px;
+
+  z-index: -1;
+}
+
+.pic {
+  position: absolute;
+}
+
+.background {
+  width: 435px;
+  height: 353px;
+
+  left: 843px;
+  top: 108px;
+}
+
+.girl {
+  width: 230px;
+  height: 230px;
+
+  left: 808px;
+  top: 168px;
+
+  z-index: 1;
+}
+
+.souvenirs {
+  width: 230px;
+  height: 230px;
+
+  left: 1088px;
+  top: 225px;
+
+  z-index: -1;
+}
+
+.pomegranate {
+  width: 160px;
+  height: 160px;
+
+  left: 998px;
+  top: 135px;
+}
+
+.granny {
+  width: 160px;
+  height: 160px;
+
+  left: 980px;
+  top: 326px;
+
+  z-index: 2;
+}
+
+@media only screen and (max-width: 750px) {
+  .mainMessage {
+    text-align: center;
+    width: 628px;
+    height: 983px;
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+
+  .pics {
+    width: 628px;
+    height: 464px;
+    margin-left: 61px;
+  }
+
+  .background {
+    width: 533px;
+    height: 432px;
+  }
+
+  .girl,
+  .souvenirs {
+    width: 282px;
+    height: 282px;
+  }
+
+  .girl {
+    left: 775px;
+  }
+
+  .souvenirs {
+    left: 1121px;
+  }
+
+  .granny,
+  .pomegranate {
+    width: 196px;
+    height: 196px;
+  }
+
+  .granny {
+    top: 366px;
+  }
+
+  .mainMessage h1 {
+    font-size: 50px;
+  }
+
+  .mainMessage p {
+    width: 630px;
+    margin: 32px 0 93px 0;
+
+    font-size: 28px;
+    line-height: 46px;
+  }
+
+  .mainMessage button {
+    width: 350px;
+    height: 82px;
+    font-size: 28px;
+  }
+
+  .mainMessage button img {
+    width: 45px;
+  }
+}

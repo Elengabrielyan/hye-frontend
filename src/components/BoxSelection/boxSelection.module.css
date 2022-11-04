@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 120px;
+}
+
+.boxes {
+  margin-top: 30px;
+  width: 803px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 750px) {
+  .boxes {
+    height: 1360px;
+    align-items: center;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,50 @@
+.wrapper {
+  width: 731px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.step {
+  margin-bottom: 64px;
+}
+
+.nextBtn {
+  width: 174px;
+  height: 46px;
+
+  background: #ffd951;
+  border: none;
+  border-radius: 52px;
+
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 14px;
+
+  color: #0e183e;
+
+  cursor: pointer;
+}
+
+.nextBtn:disabled {
+  pointer-events: none;
+  background: #f5f5f5;
+  color: #e0e0e0;
+}
+
+@media only screen and (max-width: 750px) {
+  .wrapper {
+    align-items: flex-start;
+  }
+  .step {
+    margin-bottom: 90px;
+  }
+
+  .nextBtn {
+    width: 630px;
+    height: 90px;
+
+    font-size: 32px;
+  }
+}

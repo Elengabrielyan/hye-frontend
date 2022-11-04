@@ -1,0 +1,64 @@
+.sellingPoints {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+  width: 1200px;
+  height: 280px;
+
+  margin: 68px 0 90px 0;
+
+  background-color: #fafafa;
+  border-radius: 50px;
+}
+
+.sellingPoint {
+  position: relative;
+  bottom: 63px;
+}
+
+.sellingPoint img {
+  width: 180px;
+  height: 172px;
+}
+
+.sellingPoint h3 {
+  margin: 16px 0 16px 0;
+  font-size: 18px;
+  color: #0e183e;
+}
+
+.sellingPoint p {
+  font-size: 14px;
+  line-height: 23px;
+  color: #5e778d;
+}
+
+@media only screen and (max-width: 750px) {
+  .sellingPoints {
+    width: 630px;
+    height: 1713px;
+    margin: 146px 60px 90px 60px;
+
+    flex-direction: column;
+  }
+
+  .sellingPoint {
+    position: relative;
+    bottom: 122px;
+  }
+
+  .sellingPoint img {
+    width: 280px;
+    height: 267px;
+  }
+
+  .sellingPoint h3 {
+    font-size: 32px;
+  }
+
+  .sellingPoint p {
+    font-size: 28px;
+    line-height: 46px;
+  }
+}

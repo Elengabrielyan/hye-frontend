@@ -1,0 +1,132 @@
+.wrapper {
+  display: flex;
+}
+
+.payment {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment h3 {
+  font-family: "Montserrat", sans-serif !important;
+
+  margin-bottom: 127px;
+
+  font-size: 42px;
+  text-align: center;
+
+  color: #0e183e;
+}
+
+.payment h4 {
+  font-family: "Montserrat", sans-serif !important;
+
+  margin-bottom: 34px;
+  font-size: 24px;
+  color: #0e183e;
+}
+
+form {
+  width: 705px;
+  margin-bottom: 140px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+form div {
+  font-family: "Montserrat", sans-serif !important;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input[type="email"] {
+  width: 100% !important;
+}
+
+.payment input {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+
+  padding: 11px 40px 11px 40px;
+
+  width: 210px;
+  height: 37px;
+
+  margin-bottom: 32px;
+  margin-right: 60px;
+
+  background: #fafafa;
+  border: none;
+  border-radius: 50px;
+
+  font-size: 16px;
+  color: #000000;
+}
+
+.payment input:focus {
+  outline: none;
+}
+
+.payment input::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+
+  color: #5e778d;
+}
+
+.errorInput {
+  border: 1px dashed crimson !important;
+}
+
+.payment label {
+  font-family: "Montserrat", sans-serif !important;
+
+  margin-bottom: 16px;
+  margin-left: 40px;
+
+  font-weight: bold;
+  font-size: 18px;
+
+  color: #0e183e;
+}
+
+@media only screen and (max-width: 750px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .payment h3 {
+    font-size: 50px;
+  }
+
+  .payment h4 {
+    font-size: 42px;
+  }
+
+  form {
+    width: 630px;
+
+    margin-bottom: 140px;
+    flex-direction: column;
+  }
+
+  .payment input {
+    padding-right: 0;
+    width: 593px;
+    height: 89px;
+
+    font-size: 28px;
+  }
+
+  input[type="email"] {
+    width: auto !important;
+  }
+
+  .payment label {
+    font-size: 32px;
+  }
+}

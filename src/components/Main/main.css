@@ -1,0 +1,16 @@
+main {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  margin-top: 138px;
+}
+
+@media only screen and (max-width: 750px) {
+  main {
+    width: 850px;
+    justify-content: center;
+    margin: 0;
+  }
+}

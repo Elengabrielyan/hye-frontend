@@ -1,0 +1,40 @@
+.column {
+  height: 321px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.column .wrapper {
+  width: 731px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column .wrapper p {
+  display: none;
+}
+
+.row {
+  width: 741px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.row button {
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 750px) {
+  .column {
+    height: 580px;
+  }
+
+  .row {
+    width: 746px;
+  }
+}

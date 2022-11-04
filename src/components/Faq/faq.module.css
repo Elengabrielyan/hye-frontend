@@ -1,0 +1,33 @@
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.faq h1 {
+  width: 641px;
+  margin-top: 48px;
+
+  font-size: 60px;
+  color: #0e183e;
+}
+
+.faq p {
+  margin: 32px 0 0 0;
+  line-height: 26px;
+  color: #5e778d;
+}
+
+@media only screen and (max-width: 750px) {
+  .faq h1 {
+    font-size: 50px;
+    margin-top: 60px;
+  }
+
+  .faq p {
+    margin-bottom: 32px;
+    font-size: 28px;
+    line-height: 46px;
+  }
+}

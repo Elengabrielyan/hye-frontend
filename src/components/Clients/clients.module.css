@@ -1,0 +1,34 @@
+.clients {
+  width: 1030px;
+  height: 407px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.clientsTitle {
+  margin: 90px 0 70px 0;
+
+  font-size: 42px;
+  line-height: 49px;
+
+  color: #0e183e;
+}
+
+@media only screen and (max-width: 750px) {
+  .clients {
+    margin-bottom: 90px;
+    width: 630px;
+    height: 922px;
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .clientsTitle {
+    margin: 0 0 60px 0;
+  }
+}
